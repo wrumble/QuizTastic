@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        let navController = window!.rootViewController as! UINavigationController
+        let homeScreenViewController = navController.topViewController as! HomeScreenViewController
         // Override point for customization after application launch.
         return true
     }

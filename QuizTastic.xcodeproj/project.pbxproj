@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A126C9B13A604E80160BBA6 /* Pods_QuizTastic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D270C0F15C1DDC2C80E9F18 /* Pods_QuizTastic.framework */; };
 		681561201D5DC7E5009DCF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815611F1D5DC7E5009DCF24 /* AppDelegate.swift */; };
-		681561221D5DC7E5009DCF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681561211D5DC7E5009DCF24 /* ViewController.swift */; };
 		681561251D5DC7E5009DCF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681561231D5DC7E5009DCF24 /* Main.storyboard */; };
 		681561271D5DC7E5009DCF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681561261D5DC7E5009DCF24 /* Assets.xcassets */; };
 		6815612A1D5DC7E5009DCF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681561281D5DC7E5009DCF24 /* LaunchScreen.storyboard */; };
 		681561351D5DC7E5009DCF24 /* QuizTasticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681561341D5DC7E5009DCF24 /* QuizTasticTests.swift */; };
 		681561401D5DC7E5009DCF24 /* QuizTasticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815613F1D5DC7E5009DCF24 /* QuizTasticUITests.swift */; };
+		6815614E1D5DD4D7009DCF24 /* QuizData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6815614D1D5DD4D7009DCF24 /* QuizData.json */; };
+		681561671D6204E5009DCF24 /* FinishedQuizScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681561641D6204E5009DCF24 /* FinishedQuizScreenViewController.swift */; };
+		681561681D6204E5009DCF24 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681561651D6204E5009DCF24 /* HomeScreenViewController.swift */; };
+		681561691D6204E5009DCF24 /* QuestionScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681561661D6204E5009DCF24 /* QuestionScreenViewController.swift */; };
+		6815616F1D6204F9009DCF24 /* ParseJSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815616B1D6204F9009DCF24 /* ParseJSONData.swift */; };
+		681561701D6204F9009DCF24 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815616C1D6204F9009DCF24 /* Question.swift */; };
+		682777031D6311C500A0C137 /* QuizTasticLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 682777021D6311C500A0C137 /* QuizTasticLogo.png */; };
+		6867FF541D6338EC006A0EB0 /* ScoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867FF531D6338EC006A0EB0 /* ScoreHelper.swift */; };
+		6867FF561D63512E006A0EB0 /* x-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6867FF551D63512E006A0EB0 /* x-icon.png */; };
+		6867FF581D635DA8006A0EB0 /* ChoicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867FF571D635DA8006A0EB0 /* ChoicesTableViewCell.swift */; };
+		6885703F1D63703400ED9967 /* StPaulsCathedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6885703E1D63703400ED9967 /* StPaulsCathedral.jpg */; };
+		688570411D6384A500ED9967 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688570401D6384A500ED9967 /* QuestionManager.swift */; };
+		688570431D6470CC00ED9967 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 688570421D6470CC00ED9967 /* wrong.png */; };
+		688570451D6470D100ED9967 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 688570441D6470D100ED9967 /* correct.png */; };
+		D6E2D764A1DB7623346E66B9 /* Pods_QuizTasticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA6A486BAC80F938EA048C5 /* Pods_QuizTasticTests.framework */; };
+		FD684431FF7F5744C746C492 /* Pods_QuizTasticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159FCEA20CEB469A102F6A41 /* Pods_QuizTasticUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		159FCEA20CEB469A102F6A41 /* Pods_QuizTasticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTasticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D777A7D66F5DD313A211CD /* Pods-QuizTasticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTasticUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTasticUITests/Pods-QuizTasticUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25F3637E61620D7E72B14BCE /* Pods-QuizTastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTastic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTastic/Pods-QuizTastic.debug.xcconfig"; sourceTree = "<group>"; };
+		3D270C0F15C1DDC2C80E9F18 /* Pods_QuizTastic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTastic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0BE31C1467B5E6196734CE /* Pods-QuizTasticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTasticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTasticUITests/Pods-QuizTasticUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6815611C1D5DC7E5009DCF24 /* QuizTastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizTastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6815611F1D5DC7E5009DCF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		681561211D5DC7E5009DCF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		681561241D5DC7E5009DCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		681561261D5DC7E5009DCF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		681561291D5DC7E5009DCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,24 @@
 		6815613B1D5DC7E5009DCF24 /* QuizTasticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTasticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6815613F1D5DC7E5009DCF24 /* QuizTasticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTasticUITests.swift; sourceTree = "<group>"; };
 		681561411D5DC7E5009DCF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6815614D1D5DD4D7009DCF24 /* QuizData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuizData.json; sourceTree = "<group>"; };
+		681561641D6204E5009DCF24 /* FinishedQuizScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedQuizScreenViewController.swift; sourceTree = "<group>"; };
+		681561651D6204E5009DCF24 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		681561661D6204E5009DCF24 /* QuestionScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionScreenViewController.swift; sourceTree = "<group>"; };
+		6815616B1D6204F9009DCF24 /* ParseJSONData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSONData.swift; sourceTree = "<group>"; };
+		6815616C1D6204F9009DCF24 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		682777021D6311C500A0C137 /* QuizTasticLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizTasticLogo.png; sourceTree = "<group>"; };
+		6867FF531D6338EC006A0EB0 /* ScoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreHelper.swift; sourceTree = "<group>"; };
+		6867FF551D63512E006A0EB0 /* x-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-icon.png"; sourceTree = "<group>"; };
+		6867FF571D635DA8006A0EB0 /* ChoicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoicesTableViewCell.swift; path = QuizTastic/ChoicesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6885703E1D63703400ED9967 /* StPaulsCathedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StPaulsCathedral.jpg; sourceTree = "<group>"; };
+		688570401D6384A500ED9967 /* QuestionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		688570421D6470CC00ED9967 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		688570441D6470D100ED9967 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		6AA6A486BAC80F938EA048C5 /* Pods_QuizTasticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTasticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F02451C077A65C8D33B8FAB /* Pods-QuizTasticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTasticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests.release.xcconfig"; sourceTree = "<group>"; };
+		93741C75B6FBEDE6D0C2E040 /* Pods-QuizTasticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTasticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E155F6A29667ABCBD4598B5B /* Pods-QuizTastic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizTastic.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizTastic/Pods-QuizTastic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A126C9B13A604E80160BBA6 /* Pods_QuizTastic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E2D764A1DB7623346E66B9 /* Pods_QuizTasticTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD684431FF7F5744C746C492 /* Pods_QuizTasticUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F346C8C390D97BFD0E268FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25F3637E61620D7E72B14BCE /* Pods-QuizTastic.debug.xcconfig */,
+				E155F6A29667ABCBD4598B5B /* Pods-QuizTastic.release.xcconfig */,
+				93741C75B6FBEDE6D0C2E040 /* Pods-QuizTasticTests.debug.xcconfig */,
+				8F02451C077A65C8D33B8FAB /* Pods-QuizTasticTests.release.xcconfig */,
+				5C0BE31C1467B5E6196734CE /* Pods-QuizTasticUITests.debug.xcconfig */,
+				15D777A7D66F5DD313A211CD /* Pods-QuizTasticUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		681561131D5DC7E5009DCF24 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				681561331D5DC7E5009DCF24 /* QuizTasticTests */,
 				6815613E1D5DC7E5009DCF24 /* QuizTasticUITests */,
 				6815611D1D5DC7E5009DCF24 /* Products */,
+				3F346C8C390D97BFD0E268FB /* Pods */,
+				CE01869B03728F14E6CE827F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +153,17 @@
 		6815611E1D5DC7E5009DCF24 /* QuizTastic */ = {
 			isa = PBXGroup;
 			children = (
+				6867FF521D6338E1006A0EB0 /* Helpers */,
+				6815616A1D6204F9009DCF24 /* Models */,
+				6815616E1D6204F9009DCF24 /* Assets */,
+				681561631D6204E5009DCF24 /* Controllers */,
 				6815611F1D5DC7E5009DCF24 /* AppDelegate.swift */,
-				681561211D5DC7E5009DCF24 /* ViewController.swift */,
+				6867FF571D635DA8006A0EB0 /* ChoicesTableViewCell.swift */,
 				681561231D5DC7E5009DCF24 /* Main.storyboard */,
 				681561261D5DC7E5009DCF24 /* Assets.xcassets */,
 				681561281D5DC7E5009DCF24 /* LaunchScreen.storyboard */,
 				6815612B1D5DC7E5009DCF24 /* Info.plist */,
+				6815614D1D5DD4D7009DCF24 /* QuizData.json */,
 			);
 			path = QuizTastic;
 			sourceTree = "<group>";
@@ -125,6 +186,56 @@
 			path = QuizTasticUITests;
 			sourceTree = "<group>";
 		};
+		681561631D6204E5009DCF24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				681561641D6204E5009DCF24 /* FinishedQuizScreenViewController.swift */,
+				681561651D6204E5009DCF24 /* HomeScreenViewController.swift */,
+				681561661D6204E5009DCF24 /* QuestionScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6815616A1D6204F9009DCF24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6815616B1D6204F9009DCF24 /* ParseJSONData.swift */,
+				6815616C1D6204F9009DCF24 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6815616E1D6204F9009DCF24 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				682777021D6311C500A0C137 /* QuizTasticLogo.png */,
+				688570441D6470D100ED9967 /* correct.png */,
+				688570421D6470CC00ED9967 /* wrong.png */,
+				6885703E1D63703400ED9967 /* StPaulsCathedral.jpg */,
+				6867FF551D63512E006A0EB0 /* x-icon.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6867FF521D6338E1006A0EB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6867FF531D6338EC006A0EB0 /* ScoreHelper.swift */,
+				688570401D6384A500ED9967 /* QuestionManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE01869B03728F14E6CE827F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D270C0F15C1DDC2C80E9F18 /* Pods_QuizTastic.framework */,
+				6AA6A486BAC80F938EA048C5 /* Pods_QuizTasticTests.framework */,
+				159FCEA20CEB469A102F6A41 /* Pods_QuizTasticUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 681561441D5DC7E5009DCF24 /* Build configuration list for PBXNativeTarget "QuizTastic" */;
 			buildPhases = (
+				57763D0CB7EB5E20DF3C0ED2 /* [CP] Check Pods Manifest.lock */,
 				681561181D5DC7E5009DCF24 /* Sources */,
 				681561191D5DC7E5009DCF24 /* Frameworks */,
 				6815611A1D5DC7E5009DCF24 /* Resources */,
+				5EA8523EE5AD8C174DB93061 /* [CP] Embed Pods Frameworks */,
+				1AF53F0EA2043E9DC25BBE8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 681561471D5DC7E5009DCF24 /* Build configuration list for PBXNativeTarget "QuizTasticTests" */;
 			buildPhases = (
+				0189EE14BDCFCE5EB7567639 /* [CP] Check Pods Manifest.lock */,
 				6815612C1D5DC7E5009DCF24 /* Sources */,
 				6815612D1D5DC7E5009DCF24 /* Frameworks */,
 				6815612E1D5DC7E5009DCF24 /* Resources */,
+				46EDEE97D2BF8E4AFA4BC9A6 /* [CP] Embed Pods Frameworks */,
+				9AA7880E835DFB2B75A5386F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6815614A1D5DC7E5009DCF24 /* Build configuration list for PBXNativeTarget "QuizTasticUITests" */;
 			buildPhases = (
+				208364258DEF5900A95AB058 /* [CP] Check Pods Manifest.lock */,
 				681561371D5DC7E5009DCF24 /* Sources */,
 				681561381D5DC7E5009DCF24 /* Frameworks */,
 				681561391D5DC7E5009DCF24 /* Resources */,
+				678C4F874E572AFE20FCBB64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +351,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6815614E1D5DD4D7009DCF24 /* QuizData.json in Resources */,
+				688570431D6470CC00ED9967 /* wrong.png in Resources */,
+				688570451D6470D100ED9967 /* correct.png in Resources */,
 				6815612A1D5DC7E5009DCF24 /* LaunchScreen.storyboard in Resources */,
+				682777031D6311C500A0C137 /* QuizTasticLogo.png in Resources */,
+				6885703F1D63703400ED9967 /* StPaulsCathedral.jpg in Resources */,
 				681561271D5DC7E5009DCF24 /* Assets.xcassets in Resources */,
 				681561251D5DC7E5009DCF24 /* Main.storyboard in Resources */,
+				6867FF561D63512E006A0EB0 /* x-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +379,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0189EE14BDCFCE5EB7567639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1AF53F0EA2043E9DC25BBE8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizTastic/Pods-QuizTastic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		208364258DEF5900A95AB058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46EDEE97D2BF8E4AFA4BC9A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57763D0CB7EB5E20DF3C0ED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA8523EE5AD8C174DB93061 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizTastic/Pods-QuizTastic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678C4F874E572AFE20FCBB64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizTasticUITests/Pods-QuizTasticUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA7880E835DFB2B75A5386F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		681561181D5DC7E5009DCF24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681561221D5DC7E5009DCF24 /* ViewController.swift in Sources */,
+				681561691D6204E5009DCF24 /* QuestionScreenViewController.swift in Sources */,
+				6815616F1D6204F9009DCF24 /* ParseJSONData.swift in Sources */,
+				681561681D6204E5009DCF24 /* HomeScreenViewController.swift in Sources */,
+				681561671D6204E5009DCF24 /* FinishedQuizScreenViewController.swift in Sources */,
+				688570411D6384A500ED9967 /* QuestionManager.swift in Sources */,
+				681561701D6204F9009DCF24 /* Question.swift in Sources */,
+				6867FF541D6338EC006A0EB0 /* ScoreHelper.swift in Sources */,
+				6867FF581D635DA8006A0EB0 /* ChoicesTableViewCell.swift in Sources */,
 				681561201D5DC7E5009DCF24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +657,7 @@
 		};
 		681561451D5DC7E5009DCF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F3637E61620D7E72B14BCE /* Pods-QuizTastic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuizTastic/Info.plist;
@@ -413,6 +669,7 @@
 		};
 		681561461D5DC7E5009DCF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E155F6A29667ABCBD4598B5B /* Pods-QuizTastic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuizTastic/Info.plist;
@@ -424,6 +681,7 @@
 		};
 		681561481D5DC7E5009DCF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93741C75B6FBEDE6D0C2E040 /* Pods-QuizTasticTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QuizTasticTests/Info.plist;
@@ -436,6 +694,7 @@
 		};
 		681561491D5DC7E5009DCF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F02451C077A65C8D33B8FAB /* Pods-QuizTasticTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = QuizTasticTests/Info.plist;
@@ -448,6 +707,7 @@
 		};
 		6815614B1D5DC7E5009DCF24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0BE31C1467B5E6196734CE /* Pods-QuizTasticUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QuizTasticUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +719,7 @@
 		};
 		6815614C1D5DC7E5009DCF24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D777A7D66F5DD313A211CD /* Pods-QuizTasticUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = QuizTasticUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +748,7 @@
 				681561461D5DC7E5009DCF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		681561471D5DC7E5009DCF24 /* Build configuration list for PBXNativeTarget "QuizTasticTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +757,7 @@
 				681561491D5DC7E5009DCF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6815614A1D5DC7E5009DCF24 /* Build configuration list for PBXNativeTarget "QuizTasticUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +766,7 @@
 				6815614C1D5DC7E5009DCF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4F44A121372FBF6E435CBE374E1627 /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */; };
+		163C56ADBD329A426F87B0E722888D28 /* Freddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C731A7E93B3EE736C2D238AF4AAA843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2445E4BE7A1C16CB256F39BD4A0C2CC1 /* Pods-QuizTastic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF41A7D5E8D6D34EBC6E81484B471DB8 /* Pods-QuizTastic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4476EEDB89BD2BBE269BA25D9D6869BA /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */; };
+		4D154F8DB0F627189E950B89A128BA6F /* Pods-QuizTasticUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CC61F194A2A9ACEFEBAC4AA92495F0 /* Pods-QuizTasticUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDE9E65A08FA39E855836D940588CF2 /* Pods-QuizTasticUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456D1F3F9DEE4929096BDBC4E9D3F51 /* Pods-QuizTasticUITests-dummy.m */; };
+		6400C65D7B17C5AF90708D0F8F6FCB63 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */; };
+		6D12A6B61ED88C8517EF609FFDA72D0E /* Pods-QuizTastic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC12F6F23F29F7B55B7AA23F4D3FBCB /* Pods-QuizTastic-dummy.m */; };
+		700BDCB998A8BB5B1CEC2DD2D2D5911F /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */; };
+		7ACE08AE11BCDD339D76DCA542127463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8E6E5637A1C4FA44165BED4AAAD4B342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		955AE3F847ADA4319645830C474C8FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		95C9F7D166D041482D8D330988C3A389 /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */; };
+		99A312A29811B785F8F35EEAB3D615AE /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDD7E9CEA5A44B0BD55E0EAE62BE7EC /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */; };
+		B339E0008E711388DDCAB2661645A05C /* Pods-QuizTasticTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5986647AB3D35A6FDC9838A676346FB5 /* Pods-QuizTasticTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEEC65252B9CC6CB03696F83CFAA05DB /* Pods-QuizTasticTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316E979258EEAF6BD6FF34440BF7523 /* Pods-QuizTasticTests-dummy.m */; };
+		C0F3756C4C77EC31F50AF6E1F794B042 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */; };
+		CC7F5D04E26E5E2117CBABA597225B59 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */; };
+		E597971E2E9FC8DAE78D697CBD10046D /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */; };
+		FDB24A67301DAC22E84605827EDDBABB /* Freddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434972EC4E06F47B542202D7E4722410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE4BFE3AC283ECEA2CF60A4C399216A;
+			remoteInfo = Freddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0456D1F3F9DEE4929096BDBC4E9D3F51 /* Pods-QuizTasticUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizTasticUITests-dummy.m"; sourceTree = "<group>"; };
+		05EA2F224923C6F7654EAEFAFF61EC45 /* Pods-QuizTasticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTasticUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08278AD843B4C9B23C74571F8D7E9227 /* Pods-QuizTastic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTastic-frameworks.sh"; sourceTree = "<group>"; };
+		0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
+		161AE47D866271655FB82B9696BCB149 /* Pods-QuizTasticTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizTasticTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		163FC14D2804297D5E1A460782F49FB4 /* Pods-QuizTastic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuizTastic.modulemap"; sourceTree = "<group>"; };
+		17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
+		2207457AEA768E9BE0C53649616028C6 /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2316E979258EEAF6BD6FF34440BF7523 /* Pods-QuizTasticTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizTasticTests-dummy.m"; sourceTree = "<group>"; };
+		2341BC235734393E9B01801CCB433D1B /* Pods-QuizTasticTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuizTasticTests.modulemap"; sourceTree = "<group>"; };
+		24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
+		3485497ED6489F71644AFB299FD812C9 /* Pods_QuizTastic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTastic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		383B67B844FC377CD2665D9DF833C768 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECE331F7B65CAD6C520D532FE13646B /* Pods-QuizTasticUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuizTasticUITests.modulemap"; sourceTree = "<group>"; };
+		401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
+		4E57DA94C3FBA2D74E9396C4D25511E5 /* Pods-QuizTastic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTastic-resources.sh"; sourceTree = "<group>"; };
+		4EF47731E73C571C11F6DD3209CF4D17 /* Pods-QuizTasticUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizTasticUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5986647AB3D35A6FDC9838A676346FB5 /* Pods-QuizTasticTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizTasticTests-umbrella.h"; sourceTree = "<group>"; };
+		6535551815C84E1AACD397FDBF74D4AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673C4713C82E3EEA70523D062D411062 /* Pods-QuizTasticTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTasticTests-frameworks.sh"; sourceTree = "<group>"; };
+		72CC61F194A2A9ACEFEBAC4AA92495F0 /* Pods-QuizTasticUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizTasticUITests-umbrella.h"; sourceTree = "<group>"; };
+		756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-dummy.m"; sourceTree = "<group>"; };
+		76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
+		7E2159AA69E4BE78130D85A2C0D11046 /* Pods_QuizTasticUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTasticUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F45FBFD5C30D1F5C9430AE2395A9A5A /* Pods-QuizTasticUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTasticUITests-resources.sh"; sourceTree = "<group>"; };
+		91B0CB04E7C33CA7509462DFBB4D8F24 /* Freddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Freddy.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
+		996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Freddy.xcconfig; sourceTree = "<group>"; };
+		9B2396E8B2E02B1D53EF2D936A73A56E /* Pods-QuizTasticTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTasticTests-resources.sh"; sourceTree = "<group>"; };
+		B42D4B29BDEF4E67E2113D0365BED0C7 /* Pods-QuizTasticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTasticTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		BD422CE9E3772DEEA30D8714825B9C5C /* Pods-QuizTasticTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizTasticTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-umbrella.h"; sourceTree = "<group>"; };
+		C42146C9A5464808A5C659F030FD9446 /* Pods-QuizTastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTastic.debug.xcconfig"; sourceTree = "<group>"; };
+		C64E394E80109BA6F9E2418B2AE9843E /* Pods-QuizTastic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizTastic-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5524D58C6987808B24627C79F6493B6 /* Pods-QuizTastic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTastic.release.xcconfig"; sourceTree = "<group>"; };
+		D8E18F303B4AB7AF25AEE585F7F9C839 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA078E915FDD3030381E9D4E5553DF4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC40853DF23E1D7BE85CB9AA95F4E9B0 /* Pods-QuizTasticUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizTasticUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
+		ECAC3845A53110FA28E8B857D63769C7 /* Pods_QuizTasticTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizTasticTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEAD97884D7117A7B8D15D9394EA195 /* Pods-QuizTasticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTasticTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF41A7D5E8D6D34EBC6E81484B471DB8 /* Pods-QuizTastic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizTastic-umbrella.h"; sourceTree = "<group>"; };
+		EFC12F6F23F29F7B55B7AA23F4D3FBCB /* Pods-QuizTastic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizTastic-dummy.m"; sourceTree = "<group>"; };
+		F11AABFECB162A37451A4D66E7C4BB8F /* Pods-QuizTasticUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizTasticUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F519FB9D2C86AFB0EC067C866C6890BA /* Pods-QuizTastic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizTastic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
+		F91CFE7CEF288285649DD2E58B9D5B96 /* Pods-QuizTasticUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizTasticUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCA403012908BCA877AC94FA8CD22E80 /* Freddy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CEEE820E8520E9A734394CE7355C1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AE3F847ADA4319645830C474C8FC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B1378E870CBDBC8929D570E98782D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACE08AE11BCDD339D76DCA542127463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970400FC0CBD7D3F3A5F1AD49693C8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6E5637A1C4FA44165BED4AAAD4B342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7E943507D33406AEFE6D3C51B1BB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C731A7E93B3EE736C2D238AF4AAA843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CEA94414247457E6D50A35B00078BA /* Pods-QuizTasticTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA078E915FDD3030381E9D4E5553DF4D /* Info.plist */,
+				2341BC235734393E9B01801CCB433D1B /* Pods-QuizTasticTests.modulemap */,
+				BD422CE9E3772DEEA30D8714825B9C5C /* Pods-QuizTasticTests-acknowledgements.markdown */,
+				161AE47D866271655FB82B9696BCB149 /* Pods-QuizTasticTests-acknowledgements.plist */,
+				2316E979258EEAF6BD6FF34440BF7523 /* Pods-QuizTasticTests-dummy.m */,
+				673C4713C82E3EEA70523D062D411062 /* Pods-QuizTasticTests-frameworks.sh */,
+				9B2396E8B2E02B1D53EF2D936A73A56E /* Pods-QuizTasticTests-resources.sh */,
+				5986647AB3D35A6FDC9838A676346FB5 /* Pods-QuizTasticTests-umbrella.h */,
+				B42D4B29BDEF4E67E2113D0365BED0C7 /* Pods-QuizTasticTests.debug.xcconfig */,
+				EEEAD97884D7117A7B8D15D9394EA195 /* Pods-QuizTasticTests.release.xcconfig */,
+			);
+			name = "Pods-QuizTasticTests";
+			path = "Target Support Files/Pods-QuizTasticTests";
+			sourceTree = "<group>";
+		};
+		295CD76B572349D841A706DE8C43D86B /* Pods-QuizTastic */ = {
+			isa = PBXGroup;
+			children = (
+				D8E18F303B4AB7AF25AEE585F7F9C839 /* Info.plist */,
+				163FC14D2804297D5E1A460782F49FB4 /* Pods-QuizTastic.modulemap */,
+				F519FB9D2C86AFB0EC067C866C6890BA /* Pods-QuizTastic-acknowledgements.markdown */,
+				C64E394E80109BA6F9E2418B2AE9843E /* Pods-QuizTastic-acknowledgements.plist */,
+				EFC12F6F23F29F7B55B7AA23F4D3FBCB /* Pods-QuizTastic-dummy.m */,
+				08278AD843B4C9B23C74571F8D7E9227 /* Pods-QuizTastic-frameworks.sh */,
+				4E57DA94C3FBA2D74E9396C4D25511E5 /* Pods-QuizTastic-resources.sh */,
+				EF41A7D5E8D6D34EBC6E81484B471DB8 /* Pods-QuizTastic-umbrella.h */,
+				C42146C9A5464808A5C659F030FD9446 /* Pods-QuizTastic.debug.xcconfig */,
+				D5524D58C6987808B24627C79F6493B6 /* Pods-QuizTastic.release.xcconfig */,
+			);
+			name = "Pods-QuizTastic";
+			path = "Target Support Files/Pods-QuizTastic";
+			sourceTree = "<group>";
+		};
+		3530E48CF8DEA935F9975FA7D7343892 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				295CD76B572349D841A706DE8C43D86B /* Pods-QuizTastic */,
+				03CEA94414247457E6D50A35B00078BA /* Pods-QuizTasticTests */,
+				44C07DBF046D064304D03E2B5267D409 /* Pods-QuizTasticUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		44C07DBF046D064304D03E2B5267D409 /* Pods-QuizTasticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				383B67B844FC377CD2665D9DF833C768 /* Info.plist */,
+				3ECE331F7B65CAD6C520D532FE13646B /* Pods-QuizTasticUITests.modulemap */,
+				F91CFE7CEF288285649DD2E58B9D5B96 /* Pods-QuizTasticUITests-acknowledgements.markdown */,
+				4EF47731E73C571C11F6DD3209CF4D17 /* Pods-QuizTasticUITests-acknowledgements.plist */,
+				0456D1F3F9DEE4929096BDBC4E9D3F51 /* Pods-QuizTasticUITests-dummy.m */,
+				DC40853DF23E1D7BE85CB9AA95F4E9B0 /* Pods-QuizTasticUITests-frameworks.sh */,
+				8F45FBFD5C30D1F5C9430AE2395A9A5A /* Pods-QuizTasticUITests-resources.sh */,
+				72CC61F194A2A9ACEFEBAC4AA92495F0 /* Pods-QuizTasticUITests-umbrella.h */,
+				05EA2F224923C6F7654EAEFAFF61EC45 /* Pods-QuizTasticUITests.debug.xcconfig */,
+				F11AABFECB162A37451A4D66E7C4BB8F /* Pods-QuizTasticUITests.release.xcconfig */,
+			);
+			name = "Pods-QuizTasticUITests";
+			path = "Target Support Files/Pods-QuizTasticUITests";
+			sourceTree = "<group>";
+		};
+		76499D7EAF5E4C9E8E02286B27E24CD6 /* Freddy */ = {
+			isa = PBXGroup;
+			children = (
+				0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */,
+				B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */,
+				401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */,
+				E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */,
+				F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */,
+				76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */,
+				17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */,
+				974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */,
+				24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */,
+				CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */,
+				D48F77FD316492877A54D97A41FAD992 /* Support Files */,
+			);
+			path = Freddy;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB4840957A43F162AE1AF59CE7469DAC /* Pods */,
+				DF247CB171C05270A4A9FE32AA51FC48 /* Products */,
+				3530E48CF8DEA935F9975FA7D7343892 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48F77FD316492877A54D97A41FAD992 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B0CB04E7C33CA7509462DFBB4D8F24 /* Freddy.modulemap */,
+				996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */,
+				756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */,
+				FCA403012908BCA877AC94FA8CD22E80 /* Freddy-prefix.pch */,
+				BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */,
+				6535551815C84E1AACD397FDBF74D4AF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Freddy";
+			sourceTree = "<group>";
+		};
+		DF247CB171C05270A4A9FE32AA51FC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2207457AEA768E9BE0C53649616028C6 /* Freddy.framework */,
+				3485497ED6489F71644AFB299FD812C9 /* Pods_QuizTastic.framework */,
+				ECAC3845A53110FA28E8B857D63769C7 /* Pods_QuizTasticTests.framework */,
+				7E2159AA69E4BE78130D85A2C0D11046 /* Pods_QuizTasticUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4840957A43F162AE1AF59CE7469DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76499D7EAF5E4C9E8E02286B27E24CD6 /* Freddy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25A39562088F244AAEDE514FA6D31EA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D154F8DB0F627189E950B89A128BA6F /* Pods-QuizTasticUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D48E5B8F121CA7C8FFF184A057FD25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163C56ADBD329A426F87B0E722888D28 /* Freddy-umbrella.h in Headers */,
+				99A312A29811B785F8F35EEAB3D615AE /* Freddy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BF02FA54E2A5399AE8E1D68B1BB1DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B339E0008E711388DDCAB2661645A05C /* Pods-QuizTasticTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7D443CFD6970CE64F3228868DD2E3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2445E4BE7A1C16CB256F39BD4A0C2CC1 /* Pods-QuizTastic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		287F0392989B9A937B8F4A754D9D89AC /* Pods-QuizTastic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A837B055EE417EC4B2915EC74348982 /* Build configuration list for PBXNativeTarget "Pods-QuizTastic" */;
+			buildPhases = (
+				DE5BEBA6172DEC9CE82B25D6A124FED9 /* Sources */,
+				970400FC0CBD7D3F3A5F1AD49693C8B0 /* Frameworks */,
+				AA7D443CFD6970CE64F3228868DD2E3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6134455BA0527D92A92D6F35215A672 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuizTastic";
+			productName = "Pods-QuizTastic";
+			productReference = 3485497ED6489F71644AFB299FD812C9 /* Pods_QuizTastic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBAFCA78658ACD6AA73B0018BCE30561 /* Pods-QuizTasticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68E77DC9735CF494B8713F480297E08 /* Build configuration list for PBXNativeTarget "Pods-QuizTasticTests" */;
+			buildPhases = (
+				C9DA3E77F9E1286C29507C4F7F4058C9 /* Sources */,
+				64B1378E870CBDBC8929D570E98782D7 /* Frameworks */,
+				96BF02FA54E2A5399AE8E1D68B1BB1DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizTasticTests";
+			productName = "Pods-QuizTasticTests";
+			productReference = ECAC3845A53110FA28E8B857D63769C7 /* Pods_QuizTasticTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02922C482DB90A4A5B73DC03C370C8BD /* Build configuration list for PBXNativeTarget "Freddy" */;
+			buildPhases = (
+				98785E9CD4BE549E38F1FC0B92EBBB8E /* Sources */,
+				FE7E943507D33406AEFE6D3C51B1BB82 /* Frameworks */,
+				80D48E5B8F121CA7C8FFF184A057FD25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freddy;
+			productName = Freddy;
+			productReference = 2207457AEA768E9BE0C53649616028C6 /* Freddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBF4574459E98AED344984578D69E4EF /* Pods-QuizTasticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CA2C58CD5AAC48B8F500422266E022 /* Build configuration list for PBXNativeTarget "Pods-QuizTasticUITests" */;
+			buildPhases = (
+				F077D05CACDAB1D936DDA2C4099B6CB2 /* Sources */,
+				2CEEE820E8520E9A734394CE7355C1ED /* Frameworks */,
+				25A39562088F244AAEDE514FA6D31EA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuizTasticUITests";
+			productName = "Pods-QuizTasticUITests";
+			productReference = 7E2159AA69E4BE78130D85A2C0D11046 /* Pods_QuizTasticUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF247CB171C05270A4A9FE32AA51FC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */,
+				287F0392989B9A937B8F4A754D9D89AC /* Pods-QuizTastic */,
+				EBAFCA78658ACD6AA73B0018BCE30561 /* Pods-QuizTasticTests */,
+				FBF4574459E98AED344984578D69E4EF /* Pods-QuizTasticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98785E9CD4BE549E38F1FC0B92EBBB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB24A67301DAC22E84605827EDDBABB /* Freddy-dummy.m in Sources */,
+				CC7F5D04E26E5E2117CBABA597225B59 /* JSON.swift in Sources */,
+				C0F3756C4C77EC31F50AF6E1F794B042 /* JSONDecodable.swift in Sources */,
+				E597971E2E9FC8DAE78D697CBD10046D /* JSONEncodable.swift in Sources */,
+				0B4F44A121372FBF6E435CBE374E1627 /* JSONEncodingDetector.swift in Sources */,
+				9DDD7E9CEA5A44B0BD55E0EAE62BE7EC /* JSONLiteralConvertible.swift in Sources */,
+				700BDCB998A8BB5B1CEC2DD2D2D5911F /* JSONParser.swift in Sources */,
+				4476EEDB89BD2BBE269BA25D9D6869BA /* JSONParsing.swift in Sources */,
+				6400C65D7B17C5AF90708D0F8F6FCB63 /* JSONSerializing.swift in Sources */,
+				95C9F7D166D041482D8D330988C3A389 /* JSONSubscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DA3E77F9E1286C29507C4F7F4058C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEC65252B9CC6CB03696F83CFAA05DB /* Pods-QuizTasticTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5BEBA6172DEC9CE82B25D6A124FED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D12A6B61ED88C8517EF609FFDA72D0E /* Pods-QuizTastic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F077D05CACDAB1D936DDA2C4099B6CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDE9E65A08FA39E855836D940588CF2 /* Pods-QuizTasticUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6134455BA0527D92A92D6F35215A672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Freddy;
+			target = EEE4BFE3AC283ECEA2CF60A4C399216A /* Freddy */;
+			targetProxy = 434972EC4E06F47B542202D7E4722410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056CF81622670CD02792C1E1DF6C156F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EA2F224923C6F7654EAEFAFF61EC45 /* Pods-QuizTasticUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTasticUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTasticUITests/Pods-QuizTasticUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTasticUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1529CF4BF002FA9ECE6E15CECCAB633A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		227BAC792E780EFFA97A315271A5E29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11AABFECB162A37451A4D66E7C4BB8F /* Pods-QuizTasticUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTasticUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTasticUITests/Pods-QuizTasticUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTasticUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		298936E32DF3B628F85D65847CD0D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEAD97884D7117A7B8D15D9394EA195 /* Pods-QuizTasticTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTasticTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTasticTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C5141FFF2D4EE7802819BAC42184121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42146C9A5464808A5C659F030FD9446 /* Pods-QuizTastic.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTastic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTastic/Pods-QuizTastic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTastic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F0024C8A0B7D0DECB3E8DBD946EBCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5524D58C6987808B24627C79F6493B6 /* Pods-QuizTastic.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTastic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTastic/Pods-QuizTastic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTastic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		758BCAAF6A5E859C9D4C25BE1D2F5CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97E23EF3CCFCCD25CFF84FD4554B6DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42D4B29BDEF4E67E2113D0365BED0C7 /* Pods-QuizTasticTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizTasticTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizTasticTests/Pods-QuizTasticTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuizTasticTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02922C482DB90A4A5B73DC03C370C8BD /* Build configuration list for PBXNativeTarget "Freddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1529CF4BF002FA9ECE6E15CECCAB633A /* Debug */,
+				758BCAAF6A5E859C9D4C25BE1D2F5CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A837B055EE417EC4B2915EC74348982 /* Build configuration list for PBXNativeTarget "Pods-QuizTastic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5141FFF2D4EE7802819BAC42184121 /* Debug */,
+				5F0024C8A0B7D0DECB3E8DBD946EBCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CA2C58CD5AAC48B8F500422266E022 /* Build configuration list for PBXNativeTarget "Pods-QuizTasticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056CF81622670CD02792C1E1DF6C156F /* Debug */,
+				227BAC792E780EFFA97A315271A5E29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68E77DC9735CF494B8713F480297E08 /* Build configuration list for PBXNativeTarget "Pods-QuizTasticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E23EF3CCFCCD25CFF84FD4554B6DFC /* Debug */,
+				298936E32DF3B628F85D65847CD0D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
